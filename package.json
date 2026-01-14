@@ -1,0 +1,23 @@
+{
+  "name": "@yasshi2525/akashic-platform-icon",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "yasshi2525",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "view": "pixi-image-packer-cli -o dist -i lib --onlyCreate src/index.ts",
+    "build": "pixi-image-packer-cli -o dist -i lib -s --onlyCreate src/index.ts"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.7",
+    "@yasshi2525/pixi-image-packer": "^0.4.2",
+    "pixi-filters": "^6.1.5",
+    "pixi.js": "^8.15.0",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3"
+  }
+}
